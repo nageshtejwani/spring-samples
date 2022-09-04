@@ -39,7 +39,6 @@ public class CSVProcessor<T> implements FileProcessor<CSVFile<String>> {
 				Row<String> row = new Row<>();
 				String arr[] = content.get(i);
 				for(int j=0;j<arr.length;j++) {
-					LOG.info(arr[j]);
 					csvContent.append(arr[j]+DELIMETER);
 					Column<String> col = new Column<String>(arr[j]);
 					coulmnList.add((Column<String>) col);
