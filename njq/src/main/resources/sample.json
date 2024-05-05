@@ -1,0 +1,18 @@
+{
+"id": 1,
+"name": "John Doe",
+"position": "Software Developer",
+"email": "johndoe@example.com",
+"department": {
+"name": "Engineering",
+"location": "Headquarters"
+},
+"salary": 70000,
+"hiredDate": "2022-01-01",
+"manager": {
+"id": 2,
+"name": "Jane Smith",
+"position": "Engineering Manager",
+"email": "janesmith@example.com"
+}
+}
